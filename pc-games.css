@@ -1,0 +1,110 @@
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000c5), to(#000000c5)), url(./Images/38260.png);
+  background: linear-gradient(#000000c5, #000000c5), url(./Images/38260.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 1% 8%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 26px auto;
+}
+
+.box {
+  width: 30%;
+  min-width: 300px;
+  height: 215px;
+  margin: 20px 15px;
+  background: #000000;
+  border: 2px solid #0084ff;
+  -webkit-box-shadow: 1px 1px 10px #0084ff;
+          box-shadow: 1px 1px 10px #0084ff;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.box a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 30px;
+}
+
+.box a h2 {
+  font-size: 140%;
+  margin-top: 10px;
+  font-weight: 400;
+  padding: 0 5px 2px 5px;
+}
+
+.box:hover .title {
+  border-bottom: 2px solid #fd3a69;
+}
+
+.box:hover {
+  border: 2px solid #fd3a69;
+  -webkit-box-shadow: 1px 1px 20px #fd3a69;
+          box-shadow: 1px 1px 20px #fd3a69;
+  border-radius: 0;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+/*# sourceMappingURL=pc-games.css.map */

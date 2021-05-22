@@ -1,0 +1,147 @@
+body {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#00000070),
+      to(#00000070)
+    ),
+    url("./Images/Background-2.jpg");
+  background: linear-gradient(#00000070, #00000070),
+    url("./Images/Background-2.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.form-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  min-width: 360px;
+  width: 30%;
+  border: 1px solid #ffffffaa;
+  background: #000000d2;
+  padding: 3rem 0%;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+form {
+  width: 80%;
+  padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: unset;
+  -ms-flex-align: unset;
+  align-items: unset;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.form {
+  color: #fff;
+  height: 80vh;
+  padding: 1% 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.form-table h2 {
+  font-size: 300%;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
+form label {
+  margin-bottom: 1%;
+  font-size: 180%;
+}
+
+.form-table button {
+  padding: 8px 30px;
+  border-radius: 30px;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  outline: none;
+  font-size: 140%;
+}
+
+form input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  background: none;
+  color: #ffffff;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+form input:focus {
+  border: 1px solid #006eff;
+  box-shadow: 0px 0px 3px 2px #006eff;
+  background-color: #006eff20;
+}
+form textarea {
+  border-radius: 5px;
+  background: none;
+  color: #ffffff;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 10px;
+  resize: none;
+}
+
+form textarea:focus {
+  border: 1px solid #006eff;
+  box-shadow: 0px 0px 3px 2px #006eff;
+  background-color: #006eff20;
+}
+
+@media only screen and (max-width: 768px) {
+  .form {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
+/*# sourceMappingURL=feedback.css.map */
